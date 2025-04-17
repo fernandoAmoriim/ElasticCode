@@ -1,4 +1,8 @@
-public abstract class AnimalAB implements AnimalF {
+package elastic.code;
+
+import elastic.code.interfaces.AnimalF;
+
+public class AnimalAB implements AnimalF {
     protected int qtdComida;
     protected int qtdCaminhoPercorrido;
     protected int qtdHorasDormidas;

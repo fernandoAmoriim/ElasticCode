@@ -1,6 +1,6 @@
-package voador;
+package elastic.code.voador;
 
-public class Pombo extends AnimalVoadorAB {
+public class Pombo extends AnimalVoadorAB{
     @Override
     String voar() {
         super.qtdCaminhoPercorrido += 20;

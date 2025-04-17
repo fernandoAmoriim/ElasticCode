@@ -1,6 +1,6 @@
-package marinho;
+package elastic.code.nadadores;
 
-public class Peixe extends AnimalMarinhoAB {
+public class Peixe extends AnimalNadadorAB{
     @Override
     String nadar() {
         super.qtdCaminhoPercorrido += 10;

@@ -1,6 +1,6 @@
-package terrestres;
+package elastic.code.terrestres;
 
-public class Leao extends AnimalAB {
+public class Leao extends AnimalTerrestreAB{
 
     @Override
     public String comer() {
@@ -9,9 +9,9 @@ public class Leao extends AnimalAB {
     }
 
     @Override
-    public String moverse() {
+    public String andar() {
         super.qtdCaminhoPercorrido += 30;
-        return super.moverse();
+        return super.andar();
     }
 
     @Override

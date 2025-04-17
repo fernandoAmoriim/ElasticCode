@@ -1,17 +1,17 @@
-package terrestres;
+package elastic.code.terrestres;
 
-public class Cachorro extends AnimalAB {
+public class Elefante extends AnimalTerrestreAB{
 
     @Override
     public String comer() {
-        super.qtdComida += 10;
+        super.qtdComida += 50;
         return super.comer();
     }
 
     @Override
-    public String moverse() {
-        super.qtdCaminhoPercorrido += 5;
-        return super.moverse();
+    public String andar() {
+        super.qtdCaminhoPercorrido += 10;
+        return super.andar();
     }
 
     @Override
