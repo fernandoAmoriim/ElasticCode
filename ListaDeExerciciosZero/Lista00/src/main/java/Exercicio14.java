@@ -7,6 +7,7 @@ public class Exercicio14 {
         Integer contador = 0;
 
         while (contador < 50){
+            contador++;
             System.out.println("Digite um numero: ");
             Integer num = scanner.nextInt();
             resultado += num;
